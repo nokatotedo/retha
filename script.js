@@ -5,7 +5,7 @@ function init() {
     card.src = "card.jpg"
   
     card.addEventListener('click', () => {
-      window.setTimeout(() => {
+      setTimeout(() => {
         if(card.src === `http://127.0.0.1:5500/image_${index+1}.jpeg`) {
           text[index].classList.remove('text-hover')
           card.src = "card.jpg"
